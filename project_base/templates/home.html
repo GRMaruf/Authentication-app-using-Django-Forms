@@ -47,7 +47,7 @@
       {% if request.user.is_authenticated %}
         <a href="{% url 'logout' %}"><button class="btn btn-light btn-custom" disabled>Logout</button></a>
       {% else %}
-        <p class="text-dark btn-custom">You cannot logout</p>
+        <p class="text-primary btn-custom">You have logged out</p>
       {% endif %}
     </div>
 
